@@ -1,3 +1,5 @@
 AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.23.0.3. Set the 'ServerName' directive globally to suppress this message
 [Sat Sep 14 11:48:30.117722 2019] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.25 (Debian) PHP/7.1.20 configured -- resuming normal operations
 [Sat Sep 14 11:48:30.117838 2019] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Sep 14 12:14:31.254568 2019] [php7:error] [pid 20] [client 172.23.0.1:49062] script '/var/www/html/index.php' not found or unable to stat, referer: http://localhost/ci-front/test_api
+[Sat Sep 14 12:18:16.350575 2019] [php7:error] [pid 19] [client 127.0.0.1:33700] script '/var/www/html/index.php' not found or unable to stat
