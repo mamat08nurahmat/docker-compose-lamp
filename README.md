@@ -1,8 +1,21 @@
 # LAMP stack built with Docker Compose
 
-# ACCES ISSUE
-
+# ACCES ISSUE 
 * sudo chmod 777 -R www/
+
+# sess_save_path ISSUE 
+* config.php
+$config['sess_save_path'] = sys_get_temp_dir();
+
+# crud generator ISSUE 
+*for activate fullgroup SQL  --> run in mysql
+
+set global sql_mode='STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION';
+
+set session sql_mode='STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION';
+
+
+################################################
 
 ![Landing Page](https://preview.ibb.co/gOTa0y/LAMP_STACK.png)
 

@@ -7,7 +7,9 @@
 
 
     <!-- Page Header -->
-    <header class="masthead" style="background-image: url('img/home-bg.jpg')">
+    <!-- <header class="masthead" style="background-image: url('img/home-bg.jpg')"> -->
+    <header class="masthead" style="background-image: url(<?=base_url('uploads/blog/wellcome.jpg');?>)">
+    
       <div class="overlay"></div>
       <div class="container">
         <div class="row">
