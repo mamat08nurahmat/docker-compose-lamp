@@ -1,5 +1,9 @@
 # LAMP stack built with Docker Compose
 
+# ACCES ISSUE
+
+* sudo chmod 777 -R www/
+
 ![Landing Page](https://preview.ibb.co/gOTa0y/LAMP_STACK.png)
 
 This is a basic LAMP stack environment built using Docker Compose. It consists following:

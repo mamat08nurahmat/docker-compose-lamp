@@ -27,7 +27,7 @@ services:
       - ${MYSQL_LOG_DIR-./logs/mysql}:/var/log/mysql
     environment:
       MYSQL_ROOT_PASSWORD: nurahmat
-      MYSQL_DATABASE: testing
+      MYSQL_DATABASE: cicool
       MYSQL_USER: mat
       MYSQL_PASSWORD: mat123
   phpmyadmin:
