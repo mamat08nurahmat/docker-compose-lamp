@@ -12,7 +12,7 @@ services:
     links: 
       - mysql
     volumes: 
-      - ${DOCUMENT_ROOT-./www}:/var/www/html
+      - ${DOCUMENT_ROOT-./cicool}:/var/www/html
       - ${PHP_INI-./config/php/php.ini}:/usr/local/etc/php/php.ini
       - ${VHOSTS_DIR-./config/vhosts}:/etc/apache2/sites-enabled
       - ${LOG_DIR-./logs/apache2}:/var/log/apache2
@@ -26,8 +26,8 @@ services:
       - ${MYSQL_DATA_DIR-./data/mysql}:/var/lib/mysql
       - ${MYSQL_LOG_DIR-./logs/mysql}:/var/log/mysql
     environment:
-      MYSQL_ROOT_PASSWORD: nurahmat
-      MYSQL_DATABASE: testing
+      MYSQL_ROOT_PASSWORD: rahasia
+      MYSQL_DATABASE: db_wedding_ci
       MYSQL_USER: mat
       MYSQL_PASSWORD: mat123
   phpmyadmin:
